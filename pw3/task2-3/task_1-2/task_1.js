@@ -1,3 +1,5 @@
-let promRes = "Waiter: 'Welcome to our restaurant. Did you book a table in advance?' David: 'Hello. Yes, we ordered a table for Laurins.' W: 'All right. Follow me. Here's your table, as you wanted, by the window.Let me take your and your lady's coats.' D: ' Yes, please. Sit down, dear.'".replace(/'/g, '"')
-let result = promRes.replace(/\b"\b/g, "'");
-document.write(result);
+let fix = document.getElementById('text')
+let but = document.getElementById('but').addEventListener('click', () => {
+    // fix.textContent = fix.textContent.replace(/'/g, '"')
+    fix.textContent = fix.textContent.replace(/\B'|'\B/g, '"')
+})
