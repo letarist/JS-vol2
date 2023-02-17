@@ -1,10 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+}
+.conteiner{
+    display: block;
+    width: 360px;
+    border-radius: 4px;
+    margin: 40px auto;
+    padding: 10px;
+    box-shadow: #cecece 0 0 10px;
+    
+
 }
 a {
     text-decoration: none;
     color: #ffffff;
+}
+/* form, */
+.form {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 header {
@@ -245,4 +263,10 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     padding: 12px 70px;
+}
+.don_elem{
+    border-color: green;
+}
+.out_elem{
+    border-color: red;
 }

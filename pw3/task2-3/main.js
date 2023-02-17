@@ -69,7 +69,7 @@ class CartItem extends ProductItem {
     }
 
     shipping() {
-        //Метот связанный с доставкой конкретного товара, например, возвращает FREE
+
     }
 
     render() {
